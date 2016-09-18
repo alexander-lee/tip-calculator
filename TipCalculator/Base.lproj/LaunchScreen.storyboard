@@ -16,8 +16,50 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j4T-PU-Wsu">
+                                <rect key="frame" x="227" y="209" width="147" height="181"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Candy" translatesAutoresizingMaskIntoConstraints="NO" id="Nag-BX-1EN">
+                                        <rect key="frame" x="10" y="0.0" width="128" height="128"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VWN-kK-B7v">
+                                        <rect key="frame" x="20" y="138" width="107" height="43"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="43" id="A0t-Q4-dq3"/>
+                                        </constraints>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Tipster">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.086274509799999996" green="0.58039215690000001" blue="0.57254901960000004" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="36" name="HelveticaNeue-Light"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="VWN-kK-B7v" firstAttribute="centerX" secondItem="j4T-PU-Wsu" secondAttribute="centerX" id="20R-ce-4AK"/>
+                                    <constraint firstAttribute="height" constant="181" id="FUb-dA-Fgm"/>
+                                    <constraint firstAttribute="bottom" secondItem="VWN-kK-B7v" secondAttribute="bottom" id="KVH-vh-nnE"/>
+                                    <constraint firstItem="VWN-kK-B7v" firstAttribute="top" secondItem="Nag-BX-1EN" secondAttribute="bottom" constant="10" id="Mji-ar-ffd"/>
+                                    <constraint firstItem="VWN-kK-B7v" firstAttribute="leading" secondItem="j4T-PU-Wsu" secondAttribute="leading" constant="20" id="WfW-N8-kYm"/>
+                                    <constraint firstItem="Nag-BX-1EN" firstAttribute="leading" secondItem="j4T-PU-Wsu" secondAttribute="leading" constant="10" id="bIY-hY-nNx"/>
+                                    <constraint firstItem="Nag-BX-1EN" firstAttribute="top" secondItem="j4T-PU-Wsu" secondAttribute="top" id="de6-Zn-C7P"/>
+                                    <constraint firstAttribute="width" constant="147" id="eTb-ls-dqm"/>
+                                    <constraint firstItem="Nag-BX-1EN" firstAttribute="centerX" secondItem="VWN-kK-B7v" secondAttribute="centerX" id="gcD-Fp-dCm"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="j4T-PU-Wsu" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="TFr-gZ-0vD"/>
+                            <constraint firstItem="j4T-PU-Wsu" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="dQd-p3-0mE"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -25,4 +67,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Candy" width="824" height="824"/>
+    </resources>
 </document>

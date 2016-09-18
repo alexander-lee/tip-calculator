@@ -36,17 +36,17 @@
 
 /* Begin PBXFileReference section */
 		1120F86A1D8DEAF900D758EA /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		118E7F391D88FBDA00AB81AF /* TipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		118E7F391D88FBDA00AB81AF /* Tipster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		118E7F3C1D88FBDA00AB81AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		118E7F3E1D88FBDA00AB81AF /* TipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipViewController.swift; sourceTree = "<group>"; };
 		118E7F411D88FBDA00AB81AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		118E7F431D88FBDA00AB81AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		118E7F461D88FBDA00AB81AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		118E7F481D88FBDA00AB81AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		118E7F4D1D88FBDA00AB81AF /* TipCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		118E7F4D1D88FBDA00AB81AF /* Tipster.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tipster.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		118E7F511D88FBDA00AB81AF /* TipCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorTests.swift; sourceTree = "<group>"; };
 		118E7F531D88FBDA00AB81AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		118E7F581D88FBDA00AB81AF /* TipCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		118E7F581D88FBDA00AB81AF /* Tipster.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tipster.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		118E7F5C1D88FBDA00AB81AF /* TipCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorUITests.swift; sourceTree = "<group>"; };
 		118E7F5E1D88FBDA00AB81AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,9 +89,9 @@
 		118E7F3A1D88FBDA00AB81AF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				118E7F391D88FBDA00AB81AF /* TipCalculator.app */,
-				118E7F4D1D88FBDA00AB81AF /* TipCalculatorTests.xctest */,
-				118E7F581D88FBDA00AB81AF /* TipCalculatorUITests.xctest */,
+				118E7F391D88FBDA00AB81AF /* Tipster.app */,
+				118E7F4D1D88FBDA00AB81AF /* Tipster.xctest */,
+				118E7F581D88FBDA00AB81AF /* Tipster.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		118E7F381D88FBDA00AB81AF /* TipCalculator */ = {
+		118E7F381D88FBDA00AB81AF /* Tipster */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 118E7F611D88FBDA00AB81AF /* Build configuration list for PBXNativeTarget "TipCalculator" */;
+			buildConfigurationList = 118E7F611D88FBDA00AB81AF /* Build configuration list for PBXNativeTarget "Tipster" */;
 			buildPhases = (
 				118E7F351D88FBDA00AB81AF /* Sources */,
 				118E7F361D88FBDA00AB81AF /* Frameworks */,
@@ -143,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = TipCalculator;
+			name = Tipster;
 			productName = TipCalculator;
-			productReference = 118E7F391D88FBDA00AB81AF /* TipCalculator.app */;
+			productReference = 118E7F391D88FBDA00AB81AF /* Tipster.app */;
 			productType = "com.apple.product-type.application";
 		};
-		118E7F4C1D88FBDA00AB81AF /* TipCalculatorTests */ = {
+		118E7F4C1D88FBDA00AB81AF /* TipsterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 118E7F641D88FBDA00AB81AF /* Build configuration list for PBXNativeTarget "TipCalculatorTests" */;
+			buildConfigurationList = 118E7F641D88FBDA00AB81AF /* Build configuration list for PBXNativeTarget "TipsterTests" */;
 			buildPhases = (
 				118E7F491D88FBDA00AB81AF /* Sources */,
 				118E7F4A1D88FBDA00AB81AF /* Frameworks */,
@@ -161,14 +161,14 @@
 			dependencies = (
 				118E7F4F1D88FBDA00AB81AF /* PBXTargetDependency */,
 			);
-			name = TipCalculatorTests;
+			name = TipsterTests;
 			productName = TipCalculatorTests;
-			productReference = 118E7F4D1D88FBDA00AB81AF /* TipCalculatorTests.xctest */;
+			productReference = 118E7F4D1D88FBDA00AB81AF /* Tipster.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		118E7F571D88FBDA00AB81AF /* TipCalculatorUITests */ = {
+		118E7F571D88FBDA00AB81AF /* TipsterUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 118E7F671D88FBDA00AB81AF /* Build configuration list for PBXNativeTarget "TipCalculatorUITests" */;
+			buildConfigurationList = 118E7F671D88FBDA00AB81AF /* Build configuration list for PBXNativeTarget "TipsterUITests" */;
 			buildPhases = (
 				118E7F541D88FBDA00AB81AF /* Sources */,
 				118E7F551D88FBDA00AB81AF /* Frameworks */,
@@ -179,9 +179,9 @@
 			dependencies = (
 				118E7F5A1D88FBDA00AB81AF /* PBXTargetDependency */,
 			);
-			name = TipCalculatorUITests;
+			name = TipsterUITests;
 			productName = TipCalculatorUITests;
-			productReference = 118E7F581D88FBDA00AB81AF /* TipCalculatorUITests.xctest */;
+			productReference = 118E7F581D88FBDA00AB81AF /* Tipster.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 118E7F341D88FBDA00AB81AF /* Build configuration list for PBXProject "TipCalculator" */;
+			buildConfigurationList = 118E7F341D88FBDA00AB81AF /* Build configuration list for PBXProject "Tipster" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				118E7F381D88FBDA00AB81AF /* TipCalculator */,
-				118E7F4C1D88FBDA00AB81AF /* TipCalculatorTests */,
-				118E7F571D88FBDA00AB81AF /* TipCalculatorUITests */,
+				118E7F381D88FBDA00AB81AF /* Tipster */,
+				118E7F4C1D88FBDA00AB81AF /* TipsterTests */,
+				118E7F571D88FBDA00AB81AF /* TipsterUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -286,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		118E7F4F1D88FBDA00AB81AF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 118E7F381D88FBDA00AB81AF /* TipCalculator */;
+			target = 118E7F381D88FBDA00AB81AF /* Tipster */;
 			targetProxy = 118E7F4E1D88FBDA00AB81AF /* PBXContainerItemProxy */;
 		};
 		118E7F5A1D88FBDA00AB81AF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 118E7F381D88FBDA00AB81AF /* TipCalculator */;
+			target = 118E7F381D88FBDA00AB81AF /* Tipster */;
 			targetProxy = 118E7F591D88FBDA00AB81AF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -406,7 +406,7 @@
 				INFOPLIST_FILE = TipCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexanderlee.TipCalculator;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Tipster;
 			};
 			name = Debug;
 		};
@@ -417,7 +417,7 @@
 				INFOPLIST_FILE = TipCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexanderlee.TipCalculator;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Tipster;
 			};
 			name = Release;
 		};
@@ -428,8 +428,8 @@
 				INFOPLIST_FILE = TipCalculatorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexanderlee.TipCalculatorTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TipCalculator.app/TipCalculator";
+				PRODUCT_NAME = Tipster;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tipster.app/Tipster";
 			};
 			name = Debug;
 		};
@@ -440,8 +440,8 @@
 				INFOPLIST_FILE = TipCalculatorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexanderlee.TipCalculatorTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TipCalculator.app/TipCalculator";
+				PRODUCT_NAME = Tipster;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tipster.app/Tipster";
 			};
 			name = Release;
 		};
@@ -451,7 +451,7 @@
 				INFOPLIST_FILE = TipCalculatorUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexanderlee.TipCalculatorUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Tipster;
 				TEST_TARGET_NAME = TipCalculator;
 				USES_XCTRUNNER = YES;
 			};
@@ -463,7 +463,7 @@
 				INFOPLIST_FILE = TipCalculatorUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexanderlee.TipCalculatorUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Tipster;
 				TEST_TARGET_NAME = TipCalculator;
 				USES_XCTRUNNER = YES;
 			};
@@ -472,7 +472,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		118E7F341D88FBDA00AB81AF /* Build configuration list for PBXProject "TipCalculator" */ = {
+		118E7F341D88FBDA00AB81AF /* Build configuration list for PBXProject "Tipster" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				118E7F5F1D88FBDA00AB81AF /* Debug */,
@@ -481,7 +481,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		118E7F611D88FBDA00AB81AF /* Build configuration list for PBXNativeTarget "TipCalculator" */ = {
+		118E7F611D88FBDA00AB81AF /* Build configuration list for PBXNativeTarget "Tipster" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				118E7F621D88FBDA00AB81AF /* Debug */,
@@ -490,7 +490,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		118E7F641D88FBDA00AB81AF /* Build configuration list for PBXNativeTarget "TipCalculatorTests" */ = {
+		118E7F641D88FBDA00AB81AF /* Build configuration list for PBXNativeTarget "TipsterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				118E7F651D88FBDA00AB81AF /* Debug */,
@@ -499,7 +499,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		118E7F671D88FBDA00AB81AF /* Build configuration list for PBXNativeTarget "TipCalculatorUITests" */ = {
+		118E7F671D88FBDA00AB81AF /* Build configuration list for PBXNativeTarget "TipsterUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				118E7F681D88FBDA00AB81AF /* Debug */,

@@ -9,7 +9,7 @@
         <!--Settings-->
         <scene sceneID="N74-jk-pmc">
             <objects>
-                <viewController id="oVe-uV-rGm" customClass="SettingsViewController" customModule="TipCalculator" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="oVe-uV-rGm" customClass="SettingsViewController" customModule="Tipster" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vte-he-UaW"/>
                         <viewControllerLayoutGuide type="bottom" id="hKg-NK-7hM"/>
@@ -70,7 +70,7 @@
         <!--Tip View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="Tip View Controller" id="BYZ-38-t0r" customClass="TipViewController" customModule="TipCalculator" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Tip View Controller" id="BYZ-38-t0r" customClass="TipViewController" customModule="Tipster" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="AXB-B5-F0v"/>
                         <viewControllerLayoutGuide type="bottom" id="ksG-Hc-oca"/>
@@ -246,7 +246,7 @@
                             <outletCollection property="gestureRecognizers" destination="d37-VN-EUK" appends="YES" id="uii-XK-A4e"/>
                         </connections>
                     </view>
-                    <navigationItem key="navigationItem" title="Tip Calculator" id="9LY-ix-3XU">
+                    <navigationItem key="navigationItem" title="Tipster" id="9LY-ix-3XU">
                         <barButtonItem key="rightBarButtonItem" image="Settings" id="Pe8-rz-kBl">
                             <color key="tintColor" red="0.90196079015731812" green="0.90196079015731812" blue="0.90196079015731812" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>

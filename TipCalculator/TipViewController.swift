@@ -40,10 +40,16 @@ class TipViewController: UIViewController {
     }
     
     override func viewWillAppear(animated: Bool) {
-        super.viewWillAppear(animated)
+        super.viewWillAppear(animated);
         
         let defaults = NSUserDefaults.standardUserDefaults();
         tipControl.selectedSegmentIndex = tipPercentages.indexOf(defaults.doubleForKey("default_tip_percentage")) ?? 0;
+        calculateTip(nil);
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillDisappear(animated);
+        view.endEditing(true);
     }
 
 
@@ -54,9 +60,9 @@ class TipViewController: UIViewController {
     @IBAction func calculateTip(sender: AnyObject?) {
         
         // Default Value (??) if nil
-        let bill = Double(billField.text!) ?? 0
-        let tip = bill * tipPercentages[tipControl.selectedSegmentIndex]
-        let total = bill + tip
+        let bill = Double(billField.text!) ?? 0;
+        let tip = bill * tipPercentages[tipControl.selectedSegmentIndex];
+        let total = bill + tip;
         
         tipLabel.text = formatter.stringFromNumber(tip);
         totalLabel.text = formatter.stringFromNumber(total);
