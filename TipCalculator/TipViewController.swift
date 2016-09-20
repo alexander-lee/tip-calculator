@@ -26,6 +26,7 @@ class TipViewController: UIViewController {
         formatter.numberStyle = .CurrencyStyle;
         formatter.locale = NSLocale.currentLocale();
         
+        billField.becomeFirstResponder();
         billField.placeholder = formatter.stringFromNumber(0);
         billField.text = "";
         
